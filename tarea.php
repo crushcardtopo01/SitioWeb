@@ -55,7 +55,10 @@ class operacionesAritmeticas {
 
 $ObjetooperacionesAritmeticas = new operacionesAritmeticas();
 $ObjetooperacionesAritmeticas ->suma();
-echo $ObjetooperacionesAritmeticas->suma();
+echo "resultado de suma: ".$ObjetooperacionesAritmeticas->suma(3,3,3,3,3);
+echo "resultado resta: "$ObjetooperacionesAritmeticas->resta(3,3,3,3,3);
+echo "resultado multiplicar: "$ObjetooperacionesAritmeticas->multiplicar(3,3,3,3,3);
+echo "Resultado dividir"$ObjetooperacionesAritmeticas->dividir(3,3,3,3,3);
 
 // tarea hacer lo metodos de operaciones basicas Suma resta multi div 
 
